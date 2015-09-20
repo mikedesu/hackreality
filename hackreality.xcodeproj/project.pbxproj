@@ -1,0 +1,460 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2730CFB91BA8D96600A5AB42 /* CreateAccountVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 2730CFB81BA8D96600A5AB42 /* CreateAccountVC.m */; };
+		276F66601BA6CC7E00B64B5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F665F1BA6CC7E00B64B5E /* main.m */; };
+		276F66631BA6CC7E00B64B5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F66621BA6CC7E00B64B5E /* AppDelegate.m */; };
+		276F66661BA6CC7E00B64B5E /* StartVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F66651BA6CC7E00B64B5E /* StartVC.m */; };
+		276F66691BA6CC7E00B64B5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 276F66671BA6CC7E00B64B5E /* Main.storyboard */; };
+		276F666B1BA6CC7E00B64B5E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 276F666A1BA6CC7E00B64B5E /* Images.xcassets */; };
+		276F666E1BA6CC7E00B64B5E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 276F666C1BA6CC7E00B64B5E /* LaunchScreen.xib */; };
+		276F667A1BA6CC7E00B64B5E /* hackrealityTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 276F66791BA6CC7E00B64B5E /* hackrealityTests.m */; };
+		278724D11BAD3F6000851550 /* SearchAccountsVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 278724D01BAD3F6000851550 /* SearchAccountsVC.m */; settings = {ASSET_TAGS = (); }; };
+		278724D41BADE90A00851550 /* LoginVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 278724D31BADE90A00851550 /* LoginVC.m */; settings = {ASSET_TAGS = (); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		276F66741BA6CC7E00B64B5E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 276F66521BA6CC7E00B64B5E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 276F66591BA6CC7E00B64B5E;
+			remoteInfo = hackreality;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2730CFB71BA8D96600A5AB42 /* CreateAccountVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CreateAccountVC.h; sourceTree = "<group>"; };
+		2730CFB81BA8D96600A5AB42 /* CreateAccountVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CreateAccountVC.m; sourceTree = "<group>"; };
+		2730CFBA1BA8DF0500A5AB42 /* StormpathAPIKey.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StormpathAPIKey.h; sourceTree = "<group>"; };
+		276F665A1BA6CC7E00B64B5E /* hackreality.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = hackreality.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		276F665E1BA6CC7E00B64B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276F665F1BA6CC7E00B64B5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		276F66611BA6CC7E00B64B5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		276F66621BA6CC7E00B64B5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		276F66641BA6CC7E00B64B5E /* StartVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = StartVC.h; sourceTree = "<group>"; };
+		276F66651BA6CC7E00B64B5E /* StartVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = StartVC.m; sourceTree = "<group>"; };
+		276F66681BA6CC7E00B64B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		276F666A1BA6CC7E00B64B5E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		276F666D1BA6CC7E00B64B5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		276F66731BA6CC7E00B64B5E /* hackrealityTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = hackrealityTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		276F66781BA6CC7E00B64B5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		276F66791BA6CC7E00B64B5E /* hackrealityTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = hackrealityTests.m; sourceTree = "<group>"; };
+		278724CF1BAD3F6000851550 /* SearchAccountsVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchAccountsVC.h; sourceTree = "<group>"; };
+		278724D01BAD3F6000851550 /* SearchAccountsVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchAccountsVC.m; sourceTree = "<group>"; };
+		278724D21BADE90A00851550 /* LoginVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginVC.h; sourceTree = "<group>"; };
+		278724D31BADE90A00851550 /* LoginVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginVC.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		276F66571BA6CC7E00B64B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276F66701BA6CC7E00B64B5E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		276F66511BA6CC7E00B64B5E = {
+			isa = PBXGroup;
+			children = (
+				276F665C1BA6CC7E00B64B5E /* hackreality */,
+				276F66761BA6CC7E00B64B5E /* hackrealityTests */,
+				276F665B1BA6CC7E00B64B5E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		276F665B1BA6CC7E00B64B5E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				276F665A1BA6CC7E00B64B5E /* hackreality.app */,
+				276F66731BA6CC7E00B64B5E /* hackrealityTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		276F665C1BA6CC7E00B64B5E /* hackreality */ = {
+			isa = PBXGroup;
+			children = (
+				276F66611BA6CC7E00B64B5E /* AppDelegate.h */,
+				276F66621BA6CC7E00B64B5E /* AppDelegate.m */,
+				2730CFBA1BA8DF0500A5AB42 /* StormpathAPIKey.h */,
+				2730CFB71BA8D96600A5AB42 /* CreateAccountVC.h */,
+				2730CFB81BA8D96600A5AB42 /* CreateAccountVC.m */,
+				278724CF1BAD3F6000851550 /* SearchAccountsVC.h */,
+				278724D01BAD3F6000851550 /* SearchAccountsVC.m */,
+				278724D21BADE90A00851550 /* LoginVC.h */,
+				278724D31BADE90A00851550 /* LoginVC.m */,
+				276F66641BA6CC7E00B64B5E /* StartVC.h */,
+				276F66651BA6CC7E00B64B5E /* StartVC.m */,
+				276F66671BA6CC7E00B64B5E /* Main.storyboard */,
+				276F666A1BA6CC7E00B64B5E /* Images.xcassets */,
+				276F666C1BA6CC7E00B64B5E /* LaunchScreen.xib */,
+				276F665D1BA6CC7E00B64B5E /* Supporting Files */,
+			);
+			path = hackreality;
+			sourceTree = "<group>";
+		};
+		276F665D1BA6CC7E00B64B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276F665E1BA6CC7E00B64B5E /* Info.plist */,
+				276F665F1BA6CC7E00B64B5E /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		276F66761BA6CC7E00B64B5E /* hackrealityTests */ = {
+			isa = PBXGroup;
+			children = (
+				276F66791BA6CC7E00B64B5E /* hackrealityTests.m */,
+				276F66771BA6CC7E00B64B5E /* Supporting Files */,
+			);
+			path = hackrealityTests;
+			sourceTree = "<group>";
+		};
+		276F66771BA6CC7E00B64B5E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				276F66781BA6CC7E00B64B5E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		276F66591BA6CC7E00B64B5E /* hackreality */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276F667D1BA6CC7E00B64B5E /* Build configuration list for PBXNativeTarget "hackreality" */;
+			buildPhases = (
+				276F66561BA6CC7E00B64B5E /* Sources */,
+				276F66571BA6CC7E00B64B5E /* Frameworks */,
+				276F66581BA6CC7E00B64B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = hackreality;
+			productName = hackreality;
+			productReference = 276F665A1BA6CC7E00B64B5E /* hackreality.app */;
+			productType = "com.apple.product-type.application";
+		};
+		276F66721BA6CC7E00B64B5E /* hackrealityTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 276F66801BA6CC7E00B64B5E /* Build configuration list for PBXNativeTarget "hackrealityTests" */;
+			buildPhases = (
+				276F666F1BA6CC7E00B64B5E /* Sources */,
+				276F66701BA6CC7E00B64B5E /* Frameworks */,
+				276F66711BA6CC7E00B64B5E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				276F66751BA6CC7E00B64B5E /* PBXTargetDependency */,
+			);
+			name = hackrealityTests;
+			productName = hackrealityTests;
+			productReference = 276F66731BA6CC7E00B64B5E /* hackrealityTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		276F66521BA6CC7E00B64B5E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0700;
+				ORGANIZATIONNAME = evildojo;
+				TargetAttributes = {
+					276F66591BA6CC7E00B64B5E = {
+						CreatedOnToolsVersion = 6.4;
+					};
+					276F66721BA6CC7E00B64B5E = {
+						CreatedOnToolsVersion = 6.4;
+						TestTargetID = 276F66591BA6CC7E00B64B5E;
+					};
+				};
+			};
+			buildConfigurationList = 276F66551BA6CC7E00B64B5E /* Build configuration list for PBXProject "hackreality" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 276F66511BA6CC7E00B64B5E;
+			productRefGroup = 276F665B1BA6CC7E00B64B5E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				276F66591BA6CC7E00B64B5E /* hackreality */,
+				276F66721BA6CC7E00B64B5E /* hackrealityTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		276F66581BA6CC7E00B64B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276F66691BA6CC7E00B64B5E /* Main.storyboard in Resources */,
+				276F666E1BA6CC7E00B64B5E /* LaunchScreen.xib in Resources */,
+				276F666B1BA6CC7E00B64B5E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276F66711BA6CC7E00B64B5E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		276F66561BA6CC7E00B64B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276F66661BA6CC7E00B64B5E /* StartVC.m in Sources */,
+				278724D11BAD3F6000851550 /* SearchAccountsVC.m in Sources */,
+				278724D41BADE90A00851550 /* LoginVC.m in Sources */,
+				276F66631BA6CC7E00B64B5E /* AppDelegate.m in Sources */,
+				2730CFB91BA8D96600A5AB42 /* CreateAccountVC.m in Sources */,
+				276F66601BA6CC7E00B64B5E /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		276F666F1BA6CC7E00B64B5E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				276F667A1BA6CC7E00B64B5E /* hackrealityTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		276F66751BA6CC7E00B64B5E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 276F66591BA6CC7E00B64B5E /* hackreality */;
+			targetProxy = 276F66741BA6CC7E00B64B5E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		276F66671BA6CC7E00B64B5E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276F66681BA6CC7E00B64B5E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		276F666C1BA6CC7E00B64B5E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				276F666D1BA6CC7E00B64B5E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		276F667B1BA6CC7E00B64B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		276F667C1BA6CC7E00B64B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		276F667E1BA6CC7E00B64B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackreality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evildojo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		276F667F1BA6CC7E00B64B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = hackreality/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evildojo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		276F66811BA6CC7E00B64B5E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackrealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evildojo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackreality.app/hackreality";
+			};
+			name = Debug;
+		};
+		276F66821BA6CC7E00B64B5E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = hackrealityTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.evildojo.$(PRODUCT_NAME:rfc1034identifier)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/hackreality.app/hackreality";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		276F66551BA6CC7E00B64B5E /* Build configuration list for PBXProject "hackreality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276F667B1BA6CC7E00B64B5E /* Debug */,
+				276F667C1BA6CC7E00B64B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276F667D1BA6CC7E00B64B5E /* Build configuration list for PBXNativeTarget "hackreality" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276F667E1BA6CC7E00B64B5E /* Debug */,
+				276F667F1BA6CC7E00B64B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		276F66801BA6CC7E00B64B5E /* Build configuration list for PBXNativeTarget "hackrealityTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				276F66811BA6CC7E00B64B5E /* Debug */,
+				276F66821BA6CC7E00B64B5E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 276F66521BA6CC7E00B64B5E /* Project object */;
+}
